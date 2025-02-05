@@ -7,14 +7,14 @@ import logo from './Assets/logo.png'
 function Header() {
   return (
     <>
-<Navbar bg="primary" data-bs-theme="dark">
+<Navbar  data-bs-theme="dark" style={{backgroundColor:'#68adb7', border:'none'}}>
 <Container>
           <Navbar.Brand href="#home">
           <img src={logo} 
               width="50"
               height="50"
-              className="d-inline-block align-top"
-              alt="React Bootstrap logo"
+              // className="d-inline-block align-top"
+              alt=" logo"
             />
           </Navbar.Brand>
         </Container>
