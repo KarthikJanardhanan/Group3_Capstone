@@ -10,7 +10,7 @@ import Home from "./Components/Home";
 function App() {
   return (
     <div className="App">
-      <Header />
+   
       <Routes>
         <Route path="/" element={<LoginSignup />} />
         <Route path="/home" element={<Home />} />
